@@ -15,6 +15,6 @@ public class Exemplo {
         Frete frete = tipoFrete.obterFrete();
 
         double preco = frete.calcularPreco(distancia);
-        System.out.println(String.format("O valor total é de R$%.2f", preco));
+        System.out.println(String.format("O valorCompra total é de R$%.2f", preco));
     }
 }

@@ -14,6 +14,6 @@ public class Exemplo {
 
         Frete frete = new Frete(tipoFrete);
         double preco = frete.calcularPreco(distancia);
-        System.out.println(String.format("O valor total é de R$%.2f", preco));
+        System.out.println(String.format("O valorCompra total é de R$%.2f", preco));
     }
 }

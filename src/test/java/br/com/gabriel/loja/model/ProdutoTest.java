@@ -1,5 +1,7 @@
 package br.com.gabriel.loja.model;
 
+import br.com.gabriel.loja.model.formapagamento.PagamentoBoleto;
+import br.com.gabriel.loja.model.formapagamento.PagamentoCartaoCredito;
 import junit.framework.TestCase;
 import org.junit.Test;
 
@@ -48,22 +50,6 @@ public class ProdutoTest extends TestCase {
     public void testeCriarCliente(){
         Cliente cliente = new Cliente("Gabriel", "abc@d.com");
         System.out.println("Cliente " + cliente.getNome() + "\nEmail: " + cliente.getEmail());
-    }
-
-    @Test
-    public void testeGerarPagamentoBoleto(){
-        PagamentoBoleto pagamentoBoleto = new PagamentoBoleto(399.80);
-        System.out.println(pagamentoBoleto.getBoleto());
-    }
-
-    @Test
-    public void testeGerarPagamentoCartaoCredito(){
-        String numCartao = "124457";
-        double valorCompra = 399.80;
-        PagamentoCartaoCredito pagamentoCartaoCredito = new PagamentoCartaoCredito(numCartao, valorCompra);
-        System.out.println("Compra feita pelo cartão: " + numCartao + "\nValor da compra: R$ " + valorCompra
-                + "\nNumero de parcelas: " + pagamentoCartaoCredito.getNumeroParcelas()
-                + "\nValor das parcelas: R$ " + pagamentoCartaoCredito.getValorParcelas());
     }
 
 }

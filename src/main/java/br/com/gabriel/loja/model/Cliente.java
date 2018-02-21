@@ -1,6 +1,7 @@
 package br.com.gabriel.loja.model;
 
 public class Cliente {
+
     private final String nome;
     private final String email;
 

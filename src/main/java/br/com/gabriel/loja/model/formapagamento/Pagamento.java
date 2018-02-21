@@ -1,5 +1,12 @@
 package br.com.gabriel.loja.model.formapagamento;
 
-public interface Pagamento {
-    void pagar();
+public abstract class Pagamento {
+
+    protected final double valorCompra;
+
+    public Pagamento(final double valorCompra){
+        this.valorCompra = valorCompra;
+    }
+
+    protected abstract int getPagamento();
 }

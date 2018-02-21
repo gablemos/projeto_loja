@@ -1,16 +1,14 @@
-package br.com.gabriel.loja.model;
+package br.com.gabriel.loja.model.formapagamento;
 
 import java.util.Random;
 
-public class PagamentoBoleto {
-
-    private final int boleto;
+public class PagamentoBoleto extends Pagamento {
 
     public PagamentoBoleto(final double valorCompra){
-        this.boleto = GerarBoleto(valorCompra);
+        super(valorCompra);
     }
 
-    private int GerarBoleto(final double valorCompra) {
+    public int getPagamento() {
         long milisigundosAgora = System.currentTimeMillis();
         long semente = (long) (valorCompra + milisigundosAgora);
 
@@ -20,9 +18,5 @@ public class PagamentoBoleto {
         int maximo = 9999;
 
         return random.nextInt((maximo - minimo) + 1) + minimo;
-    }
-
-    public int getBoleto() {
-        return boleto;
     }
 }
