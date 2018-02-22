@@ -1,23 +1,21 @@
 package br.com.gabriel.loja.model.formapagamento;
 
-import java.util.Random;
+public class PagamentoCartaoCredito implements Pagamento {
 
-public class PagamentoCartaoCredito extends Pagamento {
+    private final String numeroCartaoCredito;
+    private final int quantidadeParcelas;
 
-    public PagamentoCartaoCredito(final double valorCompra){
-        super(valorCompra);
+    public PagamentoCartaoCredito(final String numeroCartaoCredito, final int quantidadeParcelas){
+        this.numeroCartaoCredito = numeroCartaoCredito;
+        this.quantidadeParcelas = quantidadeParcelas;
     }
 
-    public int getPagamento() {
-        Random random = new Random((long) valorCompra);
-
-        int minimo = 2;
-        int maximo = 9;
-
-        return random.nextInt((maximo - minimo) + 1) + minimo;
+    public double getValorParcela(double valorCompra) {
+        return valorCompra / quantidadeParcelas;
     }
 
-    private double getValorParcelas() {
-        return valorCompra / getPagamento();
+    @Override
+    public double getPagamento(double valorCompra) {
+        return valorCompra / quantidadeParcelas;
     }
 }

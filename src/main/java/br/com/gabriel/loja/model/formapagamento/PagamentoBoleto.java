@@ -2,21 +2,36 @@ package br.com.gabriel.loja.model.formapagamento;
 
 import java.util.Random;
 
-public class PagamentoBoleto extends Pagamento {
+public class PagamentoBoleto implements Pagamento {
+
+    private final int codigoDeBarra;
 
     public PagamentoBoleto(final double valorCompra){
-        super(valorCompra);
+        this.codigoDeBarra = gerarCodigoDeBarra(valorCompra);
     }
 
-    public int getPagamento() {
+    private int gerarCodigoDeBarra(final double valorCompra){
         long milisigundosAgora = System.currentTimeMillis();
         long semente = (long) (valorCompra + milisigundosAgora);
 
         Random random = new Random(semente);
 
-        int minimo = 1000;
-        int maximo = 9999;
+        int min = 1000;
+        int max = 9999;
 
-        return random.nextInt((maximo - minimo) + 1) + minimo;
+        return random.nextInt((max - min) + 1) + min;
+    }
+
+    @Override
+    public double getPagamento(double valorCompra) {
+        long milisigundosAgora = System.currentTimeMillis();
+        long semente = (long) (valorCompra + milisigundosAgora);
+
+        Random random = new Random(semente);
+
+        int min = 1000;
+        int max = 9999;
+
+        return min + (max - min) * random.nextDouble();
     }
 }

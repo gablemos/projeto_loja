@@ -26,6 +26,13 @@ public class ProdutoTest extends TestCase {
         for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
             System.out.println(carrinhoDeCompra.getProdutosCompra().get(prod));
         }
+
+        double saldoDevedor = 0;
+
+        for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
+            saldoDevedor += prod.getValor() * carrinhoDeCompra.getProdutosCompra().get(prod);
+        }
+        System.out.println("Valor total = R$" + saldoDevedor);
     }
 
     @Test
@@ -44,6 +51,13 @@ public class ProdutoTest extends TestCase {
         for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
             System.out.println(carrinhoDeCompra.getProdutosCompra().get(prod));
         }
+
+        double saldoDevedor = 0;
+
+        for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
+            saldoDevedor += prod.getValor() * carrinhoDeCompra.getProdutosCompra().get(prod);
+        }
+        System.out.println("Valor total = R$" + saldoDevedor);
     }
 
     @Test
