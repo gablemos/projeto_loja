@@ -1,14 +1,8 @@
 package br.com.gabriel.loja.view;
 
-import br.com.gabriel.loja.dados.Clientes;
-import br.com.gabriel.loja.dados.Produtos;
-import br.com.gabriel.loja.model.CarrinhoDeCompra;
-import br.com.gabriel.loja.model.Cliente;
-import br.com.gabriel.loja.model.Pedido;
-import br.com.gabriel.loja.model.Produto;
-import br.com.gabriel.loja.model.formapagamento.Pagamento;
-import br.com.gabriel.loja.model.formapagamento.PagamentoCartaoCredito;
-import br.com.gabriel.loja.model.formapagamento.TipoPagamento;
+import br.com.gabriel.loja.dados.*;
+import br.com.gabriel.loja.model.*;
+import br.com.gabriel.loja.formapagamento.*;
 
 
 import java.util.List;
@@ -17,28 +11,7 @@ import java.util.Scanner;
 public class Main {
     static Scanner entrada = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        Clientes clientes = new Clientes();
-        Produtos produtos = new Produtos();
-        CarrinhoDeCompra carrinhoDeCompra = new CarrinhoDeCompra();
-        Pagamento pagamento = null;
-        Cliente cliente = null;
-
-        System.out.println("Bem vindo a FocusMarket: ");
-
-        System.out.println("Deseja continuar comprando? S/N");
-        while(entrada.nextLine().equals("S")){
-            mostrarProdutosLoja(produtos.getProdutosDisponiveis());
-
-            System.out.println("Entre com o nome do produto: ");
-            Produto prod = produtos.getProduto(entrada.nextLine());
-            if (prod != null){
-                carrinhoDeCompra.addProduto(prod);
-            } else {
-                System.out.println("Produto Invalido");
-            }
-            System.out.println("Deseja continuar comprando? S/N");
-        }
+    public static void main(String[] args) {/*
 
         mostrarProdutosCarrinhoDeCompras(carrinhoDeCompra);
 
@@ -70,7 +43,7 @@ public class Main {
         System.out.println("Cliente identificador: " + cliente.getEmail());
         System.out.println("-------------------------------------------------");
         mostrarProdutosCarrinhoDeCompras(carrinhoDeCompra);
-        System.out.println("Forma de pagamento: " + tipoPagamento);
+        System.out.println("Forma de pagamento: " + tipoPagamento);*/
 
 
     }

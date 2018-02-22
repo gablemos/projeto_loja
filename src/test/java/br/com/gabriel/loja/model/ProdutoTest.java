@@ -1,7 +1,6 @@
 package br.com.gabriel.loja.model;
 
-import br.com.gabriel.loja.model.formapagamento.PagamentoBoleto;
-import br.com.gabriel.loja.model.formapagamento.PagamentoCartaoCredito;
+
 import junit.framework.TestCase;
 import org.junit.Test;
 
@@ -15,13 +14,13 @@ public class ProdutoTest extends TestCase {
     }
 
     @Test
-    public void testeAddPrimeiroProdutoCarrinhoDeCompra(){
+    public void testeAddPrimeiroProdutoCarrinhoDeCompra() throws IllegalAccessException {
         Produto produto1 = new Produto("Camisa", 100.90);
         Produto produto2 = new Produto("Calça", 300.10);
 
         CarrinhoDeCompra carrinhoDeCompra = new CarrinhoDeCompra();
-        carrinhoDeCompra.addProduto(produto1);
-        carrinhoDeCompra.addProduto(produto2);
+        carrinhoDeCompra.addProduto(produto1,1);
+        carrinhoDeCompra.addProduto(produto2,1);
 
         for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
             System.out.println(carrinhoDeCompra.getProdutosCompra().get(prod));
@@ -36,17 +35,17 @@ public class ProdutoTest extends TestCase {
     }
 
     @Test
-    public void testeAddProdutoRepetidoCarrinhoDeCompra(){
+    public void testeAddProdutoRepetidoCarrinhoDeCompra() throws IllegalAccessException {
         Produto produto1 = new Produto("Camisa", 100.90);
         Produto produto2 = new Produto("Calça", 300.10);
 
         CarrinhoDeCompra carrinhoDeCompra = new CarrinhoDeCompra();
-        carrinhoDeCompra.addProduto(produto1);
-        carrinhoDeCompra.addProduto(produto1);
-        carrinhoDeCompra.addProduto(produto1);
+        carrinhoDeCompra.addProduto(produto1,1);
+        carrinhoDeCompra.addProduto(produto1,1);
+        carrinhoDeCompra.addProduto(produto1,1);
 
-        carrinhoDeCompra.addProduto(produto2);
-        carrinhoDeCompra.addProduto(produto2);
+        carrinhoDeCompra.addProduto(produto2,1);
+        carrinhoDeCompra.addProduto(produto2,1);
 
         for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
             System.out.println(carrinhoDeCompra.getProdutosCompra().get(prod));

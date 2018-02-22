@@ -1,6 +1,6 @@
-package br.com.gabriel.loja.model.formapagamento;
+package br.com.gabriel.loja.formapagamento;
 
-public class PagamentoCartaoCredito implements Pagamento {
+public class PagamentoCartaoCredito{
 
     private final String numeroCartaoCredito;
     private final int quantidadeParcelas;
@@ -11,11 +11,6 @@ public class PagamentoCartaoCredito implements Pagamento {
     }
 
     public double getValorParcela(double valorCompra) {
-        return valorCompra / quantidadeParcelas;
-    }
-
-    @Override
-    public double getPagamento(double valorCompra) {
         return valorCompra / quantidadeParcelas;
     }
 }

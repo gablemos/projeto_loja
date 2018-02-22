@@ -2,9 +2,7 @@ package br.com.gabriel.loja.dados;
 
 import br.com.gabriel.loja.model.Produto;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Produtos {
     private final List<Produto> produtosDisponiveis;

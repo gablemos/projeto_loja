@@ -1,14 +1,16 @@
-package br.com.gabriel.loja.model.formapagamento;
-
+package br.com.gabriel.loja.formapagamento;
+/*
 public enum TipoPagamento {
-    CARTAO(1) {
+
+
+    CARTAO {
         public Pagamento getTipoPagamento() {
-            return new PagamentoCartaoCredito();
+            return null;
         }
     },
-    BOLETO(2) {
+    BOLETO {
         public Pagamento getTipoPagamento() {
-            return new PagamentoBoleto();
+            return null;
         }
     };
 
@@ -18,5 +20,5 @@ public enum TipoPagamento {
         op = valor;
     }
     public abstract Pagamento getTipoPagamento();
-}
+}*/
 

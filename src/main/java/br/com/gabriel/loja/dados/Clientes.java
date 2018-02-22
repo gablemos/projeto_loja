@@ -2,9 +2,7 @@ package br.com.gabriel.loja.dados;
 
 import br.com.gabriel.loja.model.Cliente;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Clientes {
 
@@ -17,10 +15,6 @@ public class Clientes {
         clientes.add(new Cliente("Wu Yuan", "wu.yuan@focusnetworks.com.br"));
         clientes.add(new Cliente("Maisa Ferreira", "maisa.ferreira@focusnetworks.com.br"));
         clientes.add(new Cliente("Roberto Perillo", "roberto.perillo@focusnetworks.com.br"));
-    }
-
-    public List<Cliente> getClientes() {
-        return Collections.unmodifiableList(clientes);
     }
 
     public Cliente getCliente(String email){

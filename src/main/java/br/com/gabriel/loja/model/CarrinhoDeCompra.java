@@ -1,8 +1,6 @@
 package br.com.gabriel.loja.model;
 
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class CarrinhoDeCompra {
 
@@ -12,23 +10,25 @@ public class CarrinhoDeCompra {
         this.produtosCompra = new LinkedHashMap<Produto, Integer>();
     }
 
-    private boolean isProdutoNoCarrinho(final Produto produto){
-        return produtosCompra.containsKey(produto);
-    }
-
-    private int setMaisUmProduto(final Produto produto){
-        return 1 + produtosCompra.get(produto) ;
-    }
-
     public Map<Produto, Integer> getProdutosCompra() {
         return Collections.unmodifiableMap(produtosCompra);
     }
 
-    public void addProduto(final Produto produto){
-        if(isProdutoNoCarrinho(produto)){
-            produtosCompra.put(produto, setMaisUmProduto(produto));
+    public void addProduto(final Produto produto, final int quantidade) throws IllegalAccessException {
+        if (produto == null) {
+            throw new IllegalAccessException("Produto Invalido");
         } else {
-            produtosCompra.put(produto, 1);
+            produtosCompra.put(produto, quantidade);
         }
+    }
+
+    public double getValorTotalCarrinho(){
+        double saldoDevedor = 0;
+
+        for (Produto prod : produtosCompra.keySet()) {
+            saldoDevedor += prod.getValor() * produtosCompra.get(prod);
+        }
+
+        return saldoDevedor;
     }
 }
