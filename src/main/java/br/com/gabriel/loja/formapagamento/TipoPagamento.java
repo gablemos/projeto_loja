@@ -1,25 +1,29 @@
 package br.com.gabriel.loja.formapagamento;
 
 public enum TipoPagamento {
-    CARTAO(1) {
+    CARTAO{
         @Override
         public Pagamento getTipoPagamento(double valorDivida) {
-            return new PagamentoCartaoCredito(valorDivida);
+            return new PagamentoCartaoCredito(valorDivida, this);
+        }
+
+        @Override
+        public void executeViewPagamento() {
         }
     },
-    BOLETO(2) {
+    BOLETO{
         @Override
         public Pagamento getTipoPagamento(double valorDivida) {
-            return new PagamentoBoleto(valorDivida);
+            return new PagamentoBoleto(valorDivida, this);
+        }
+
+        @Override
+        public void executeViewPagamento() {
         }
     };
 
-    public int op;
-
-    TipoPagamento(int valor) {
-        op = valor;
-    }
-
     public abstract Pagamento getTipoPagamento(final double valorDivida);
+
+    public abstract void executeViewPagamento();
 }
 

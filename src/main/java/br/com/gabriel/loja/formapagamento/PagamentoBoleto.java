@@ -6,12 +6,12 @@ public class PagamentoBoleto extends Pagamento{
 
     private int codigoDeBarra;
 
-    public PagamentoBoleto(final double valorDivida){
-        super(valorDivida);
+    public PagamentoBoleto(final double valorDivida, final TipoPagamento tipoPagamento){
+        super(valorDivida, tipoPagamento);
     }
 
     @Override
-    protected void efetuarPagamento() {
+    public void efetuarPagamento() {
         this.codigoDeBarra = gerarCodigoDeBarra(valorDivida);
     }
 

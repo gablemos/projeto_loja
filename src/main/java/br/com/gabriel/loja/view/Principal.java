@@ -9,6 +9,8 @@ import java.util.*;
 public class Principal {
     static Scanner entrada = new Scanner(System.in);
     public static void main(String[] args) {
+        Cliente cliente;
+        Pedido pedido;
         Clientes clientes = new Clientes();
         Produtos produtos = new Produtos();
         CarrinhoDeCompra carrinhoDeCompra = new CarrinhoDeCompra();
@@ -38,30 +40,23 @@ public class Principal {
             opcao = entrada.next();
         }
 
-        mostrarProdutosCarrinhoDeCompras(carrinhoDeCompra);
-
-
         System.out.println("Digite seu email de cadastro válido: ");
         emailCliente = entrada.next();
+        cliente = clientes.getCliente(emailCliente);
 
         System.out.println("Qual o tipo de pagamento (1)Cartão, (2)Boleto: ");
         formaDePagamento = entrada.nextInt();
-        TipoPagamento pagamento = TipoPagamento.values()[formaDePagamento];
+        FormaDePagamentoView formaDePagamentoView = new FormaDePagamentoView();
 
-        Pedido pedido = new Pedido(clientes.getCliente(emailCliente),
-                carrinhoDeCompra,
-                pagamento.getTipoPagamento(carrinhoDeCompra.getValorTotalCarrinho()));
+        pedido = new Pedido(carrinhoDeCompra,
+                formaDePagamentoView.setPagamento(formaDePagamento, carrinhoDeCompra.getValorTotalCarrinho()));
 
-        pedido.gerarNotaFiscal();
+        cliente.addPedidos(pedido);
+        System.out.println("Compra finalizada");
+        pedido.finalizarPagamento();
+        pedido.gerarNotaFiscal(cliente);
 
 
-    }
-
-    private static void mostrarProdutosCarrinhoDeCompras(CarrinhoDeCompra carrinhoDeCompra){
-        for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
-            System.out.println("Produto: " + prod.getDescricao() + " - Qtd: " + carrinhoDeCompra.getProdutosCompra().get(prod));
-            System.out.println(String.format("Total: R$%.2f",prod.getValor()*carrinhoDeCompra.getProdutosCompra().get(prod)));
-        }
     }
 
     private static void mostrarProdutosLoja(List<Produto> produtos){

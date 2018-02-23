@@ -2,12 +2,16 @@ package br.com.gabriel.loja.formapagamento;
 
 public abstract class Pagamento {
     protected final double valorDivida;
+    private final TipoPagamento tipoPagamento;
 
-    protected Pagamento(final double valorDivida){
+    protected Pagamento(final double valorDivida, final TipoPagamento tipoPagamento){
         this.valorDivida = valorDivida;
-        efetuarPagamento();
+        this.tipoPagamento = tipoPagamento;
     }
 
-    protected abstract void efetuarPagamento();
+    public abstract void efetuarPagamento();
 
+    public TipoPagamento getTipoPagamento() {
+        return tipoPagamento;
+    }
 }

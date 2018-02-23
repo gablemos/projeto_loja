@@ -6,29 +6,26 @@ public class PagamentoCartaoCredito extends Pagamento{
     private int quantidadeParcelas;
     private double valorParcela;
 
-    public PagamentoCartaoCredito(final double valorDivida){
-        super(valorDivida);
+    public PagamentoCartaoCredito(final double valorDivida, final TipoPagamento tipoPagamento){
+        super(valorDivida, tipoPagamento);
     }
 
     @Override
-    protected void efetuarPagamento(){
+    public void efetuarPagamento(){
         this.valorParcela = super.valorDivida / this.quantidadeParcelas;
+    }
+
+    public void preencherDadosPagamento(final String numeroCartaoCredito, final int quantidadeParcelas){
+        this.numeroCartaoCredito = numeroCartaoCredito;
+        this.quantidadeParcelas = quantidadeParcelas;
     }
 
     public String getNumeroCartaoCredito() {
         return numeroCartaoCredito;
     }
 
-    public void setNumeroCartaoCredito(String numeroCartaoCredito) {
-        this.numeroCartaoCredito = numeroCartaoCredito;
-    }
-
     public int getQuantidadeParcelas() {
         return quantidadeParcelas;
-    }
-
-    public void setQuantidadeParcelas(int quantidadeParcelas) {
-        this.quantidadeParcelas = quantidadeParcelas;
     }
 
     public double getValorParcela() {

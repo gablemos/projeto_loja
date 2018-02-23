@@ -1,39 +1,45 @@
 package br.com.gabriel.loja.Relatorio;
 
-import br.com.gabriel.loja.formapagamento.Pagamento;
-import br.com.gabriel.loja.formapagamento.PagamentoBoleto;
-import br.com.gabriel.loja.formapagamento.PagamentoCartaoCredito;
-import br.com.gabriel.loja.formapagamento.TipoPagamento;
-import br.com.gabriel.loja.model.CarrinhoDeCompra;
-import br.com.gabriel.loja.model.Cliente;
-import br.com.gabriel.loja.model.Produto;
+import br.com.gabriel.loja.formapagamento.*;
+import br.com.gabriel.loja.model.*;
 
 import java.time.Instant;
 import java.util.Date;
+import java.util.Map;
 
 public class NotaFiscal {
 
-    public NotaFiscal(Cliente cliente, CarrinhoDeCompra carrinhoDeCompra, Pagamento pagamento){
+    public NotaFiscal(Cliente cliente, Pedido pedido, Pagamento pagamento){
         System.out.println("----------------------------------------------");
+
         System.out.println("--------------- NOTA FISCAL ------------------");
         System.out.println("----------------------------------------------");
-        System.out.println("Data: " + Date.from(Instant.now()));
+        System.out.println("Data: " + pedido.getDataCompra());
         System.out.println("Cliente" + cliente.getNome());
         System.out.println("Email de cadastro: " + cliente.getEmail());
         System.out.println("----------------------------------------------");
+
         System.out.println("--------------- COMPRA -----------------------");
-        for (Produto prod : carrinhoDeCompra.getProdutosCompra().keySet()) {
-            System.out.println("Produto: " + prod.getDescricao() + " - Qtd: " + carrinhoDeCompra.getProdutosCompra().get(prod));
-            System.out.println(String.format("Total item: R$%.2f",prod.getValor()*carrinhoDeCompra.getProdutosCompra().get(prod)));
+        for (Produto prod : pedido.produtosComprados().keySet()) {
+            System.out.println("Produto: " + prod.getDescricao() + " - Qtd: " + pedido.produtosComprados().get(prod));
+            System.out.println(String.format("Total item: R$%.2f",prod.getValor()*pedido.produtosComprados().get(prod)));
         }
-        System.out.println(String.format("Total da compra: R$%.2f",carrinhoDeCompra.getValorTotalCarrinho()));
+        System.out.println(String.format("Total da compra: R$%.2f",pedido.getValorTotalCompra()));
         System.out.println("----------------------------------------------");
+
+
         System.out.println("--------------- PAGAMENTO --------------------");
+
         if (pagamento instanceof PagamentoBoleto){
             imprimirBoleto((PagamentoBoleto) pagamento);
         } else {
-
+            imprimirFatura((PagamentoCartaoCredito) pagamento);
         }
+        System.out.println("----------------------------------------------");
+        System.out.println("------------- Volte Sempre -------------------");
+        System.out.println("----------------------------------------------");
+
+
     }
 
     private void imprimirFatura(PagamentoCartaoCredito pagamentoCartaoCredito) {
@@ -45,6 +51,6 @@ public class NotaFiscal {
 
     private void imprimirBoleto(PagamentoBoleto pagamentoBoleto) {
         System.out.println("Forma de pagamento boleto bancário");
-        System.out.println("Código de barras" + pagamentoBoleto.getCodigoDeBarra());
+        System.out.println("Código de barras |\\|" + pagamentoBoleto.getCodigoDeBarra() + "|/|");
     }
 }
