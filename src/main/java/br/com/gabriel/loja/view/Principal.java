@@ -2,12 +2,12 @@ package br.com.gabriel.loja.view;
 
 import br.com.gabriel.loja.dados.*;
 import br.com.gabriel.loja.model.*;
-import br.com.gabriel.loja.formapagamento.*;
 
 import java.util.*;
 
 public class Principal {
     static Scanner entrada = new Scanner(System.in);
+
     public static void main(String[] args) {
         Cliente cliente;
         Pedido pedido;
@@ -46,10 +46,10 @@ public class Principal {
 
         System.out.println("Qual o tipo de pagamento (1)Cartão, (2)Boleto: ");
         formaDePagamento = entrada.nextInt();
-        FormaDePagamentoView formaDePagamentoView = new FormaDePagamentoView();
+        ConfiguraFormaDePagamentoView configuraFormaDePagamentoView = new ConfiguraFormaDePagamentoView();
 
         pedido = new Pedido(carrinhoDeCompra,
-                formaDePagamentoView.setPagamento(formaDePagamento, carrinhoDeCompra.getValorTotalCarrinho()));
+                configuraFormaDePagamentoView.configurar(formaDePagamento, carrinhoDeCompra.getValorTotalCarrinho()));
 
         cliente.addPedidos(pedido);
         System.out.println("Compra finalizada");

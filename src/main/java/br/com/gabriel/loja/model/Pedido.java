@@ -26,7 +26,7 @@ public class Pedido {
     }
 
     public NotaFiscal gerarNotaFiscal(Cliente cliente){
-        return new NotaFiscal(cliente, this, this.pagamento);
+        return new NotaFiscal(cliente, this);
     }
 
     public Map<Produto, Integer> produtosComprados() {

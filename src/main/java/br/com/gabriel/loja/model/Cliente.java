@@ -18,6 +18,10 @@ public class Cliente {
         this.pedidos.add(pedido);
     }
 
+    public List<Pedido> getPedidos() {
+        return Collections.unmodifiableList(pedidos);
+    }
+
     public String getNome() {
         return nome;
     }

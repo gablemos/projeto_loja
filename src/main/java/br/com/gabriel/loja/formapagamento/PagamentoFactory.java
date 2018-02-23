@@ -1,6 +1,6 @@
 package br.com.gabriel.loja.formapagamento;
 
-public enum TipoPagamento {
+public enum PagamentoFactory {
     CARTAO{
         @Override
         public Pagamento getTipoPagamento(double valorDivida) {

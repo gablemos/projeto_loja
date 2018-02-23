@@ -3,13 +3,9 @@ package br.com.gabriel.loja.Relatorio;
 import br.com.gabriel.loja.formapagamento.*;
 import br.com.gabriel.loja.model.*;
 
-import java.time.Instant;
-import java.util.Date;
-import java.util.Map;
-
 public class NotaFiscal {
 
-    public NotaFiscal(Cliente cliente, Pedido pedido, Pagamento pagamento){
+    public NotaFiscal(Cliente cliente, Pedido pedido){
         System.out.println("----------------------------------------------");
 
         System.out.println("--------------- NOTA FISCAL ------------------");
@@ -30,10 +26,10 @@ public class NotaFiscal {
 
         System.out.println("--------------- PAGAMENTO --------------------");
 
-        if (pagamento instanceof PagamentoBoleto){
-            imprimirBoleto((PagamentoBoleto) pagamento);
+        if (pedido.getPagamento().getPagamentoFactory().equals(PagamentoFactory.BOLETO)){
+            imprimirBoleto((PagamentoBoleto) pedido.getPagamento());
         } else {
-            imprimirFatura((PagamentoCartaoCredito) pagamento);
+            imprimirFatura((PagamentoCartaoCredito) pedido.getPagamento());
         }
         System.out.println("----------------------------------------------");
         System.out.println("------------- Volte Sempre -------------------");

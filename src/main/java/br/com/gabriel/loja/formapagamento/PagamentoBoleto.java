@@ -6,8 +6,8 @@ public class PagamentoBoleto extends Pagamento{
 
     private int codigoDeBarra;
 
-    public PagamentoBoleto(final double valorDivida, final TipoPagamento tipoPagamento){
-        super(valorDivida, tipoPagamento);
+    public PagamentoBoleto(final double valorDivida, final PagamentoFactory pagamentoFactory){
+        super(valorDivida, pagamentoFactory);
     }
 
     @Override
