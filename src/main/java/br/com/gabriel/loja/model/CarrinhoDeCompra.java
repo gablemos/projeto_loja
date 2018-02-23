@@ -14,12 +14,8 @@ public class CarrinhoDeCompra {
         return Collections.unmodifiableMap(produtosCompra);
     }
 
-    public void addProduto(final Produto produto, final int quantidade) throws IllegalAccessException {
-        if (produto == null) {
-            throw new IllegalAccessException("Produto Invalido");
-        } else {
-            produtosCompra.put(produto, quantidade);
-        }
+    public void addProduto(final Produto produto, final int quantidade){
+        produtosCompra.put(produto, quantidade);
     }
 
     public double getValorTotalCarrinho(){

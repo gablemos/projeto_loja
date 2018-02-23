@@ -17,11 +17,13 @@ public class Principal {
         String emailCliente;
         String nomeProduto;
         int quantidadeProduto;
+        int formaDePagamento;
 
         System.out.println("Bem vindo a FocusMarket: ");
 
         System.out.println("Deseja continuar comprando? S/N");
         opcao = entrada.next();
+
         while(opcao.equals("S")){
             mostrarProdutosLoja(produtos.getProdutosDisponiveis());
 
@@ -30,12 +32,8 @@ public class Principal {
             System.out.println("Entre com a quantidade do produto: ");
             quantidadeProduto = entrada.nextInt();
 
-            try {
-                carrinhoDeCompra.addProduto(produtos.getProduto(nomeProduto), quantidadeProduto);
-                System.out.println("Adicionado ao Carrinho com sucesso");
-            } catch (IllegalAccessException e) {
-                System.out.println(e.getMessage());
-            }
+            carrinhoDeCompra.addProduto(produtos.getProduto(nomeProduto), quantidadeProduto);
+
             System.out.println("Deseja continuar comprando? S/N");
             opcao = entrada.next();
         }
@@ -45,12 +43,16 @@ public class Principal {
 
         System.out.println("Digite seu email de cadastro válido: ");
         emailCliente = entrada.next();
-        while (clientes.getCliente(emailCliente) == null){
-            System.out.println("Digite seu email de cadastro válido: ");
-            emailCliente = entrada.next();
-        }
 
         System.out.println("Qual o tipo de pagamento (1)Cartão, (2)Boleto: ");
+        formaDePagamento = entrada.nextInt();
+        TipoPagamento pagamento = TipoPagamento.values()[formaDePagamento];
+
+        Pedido pedido = new Pedido(clientes.getCliente(emailCliente),
+                carrinhoDeCompra,
+                pagamento.getTipoPagamento(carrinhoDeCompra.getValorTotalCarrinho()));
+
+        pedido.gerarNotaFiscal();
 
 
     }
