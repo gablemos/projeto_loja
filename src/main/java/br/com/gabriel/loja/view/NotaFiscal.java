@@ -1,6 +1,6 @@
-package br.com.gabriel.loja.Relatorio;
+package br.com.gabriel.loja.view;
 
-import br.com.gabriel.loja.formapagamento.*;
+import br.com.gabriel.loja.model.formapagamento.*;
 import br.com.gabriel.loja.model.*;
 
 public class NotaFiscal {
@@ -26,7 +26,7 @@ public class NotaFiscal {
 
         System.out.println("--------------- PAGAMENTO --------------------");
 
-        if (pedido.getPagamento().getPagamentoFactory().equals(PagamentoFactory.BOLETO)){
+        if (pedido.getPagamento().getTipoPagamentoFactory().equals(TipoPagamentoFactory.BOLETO)){
             imprimirBoleto((PagamentoBoleto) pedido.getPagamento());
         } else {
             imprimirFatura((PagamentoCartaoCredito) pedido.getPagamento());

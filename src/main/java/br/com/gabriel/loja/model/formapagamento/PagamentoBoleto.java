@@ -1,4 +1,4 @@
-package br.com.gabriel.loja.formapagamento;
+package br.com.gabriel.loja.model.formapagamento;
 
 import java.util.Random;
 
@@ -6,8 +6,8 @@ public class PagamentoBoleto extends Pagamento{
 
     private int codigoDeBarra;
 
-    public PagamentoBoleto(final double valorDivida, final PagamentoFactory pagamentoFactory){
-        super(valorDivida, pagamentoFactory);
+    public PagamentoBoleto(final double valorDivida, final TipoPagamentoFactory tipoPagamentoFactory){
+        super(valorDivida, tipoPagamentoFactory);
     }
 
     @Override

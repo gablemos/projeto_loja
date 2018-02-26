@@ -1,12 +1,9 @@
 package br.com.gabriel.loja.model;
 
-import br.com.gabriel.loja.Relatorio.NotaFiscal;
-import br.com.gabriel.loja.formapagamento.Pagamento;
-import br.com.gabriel.loja.formapagamento.PagamentoCartaoCredito;
+import br.com.gabriel.loja.model.formapagamento.Pagamento;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
-import java.util.List;
 import java.util.Map;
 
 public class Pedido {
@@ -23,10 +20,6 @@ public class Pedido {
 
     public void finalizarPagamento(){
         this.pagamento.efetuarPagamento();
-    }
-
-    public NotaFiscal gerarNotaFiscal(Cliente cliente){
-        return new NotaFiscal(cliente, this);
     }
 
     public Map<Produto, Integer> produtosComprados() {

@@ -1,14 +1,10 @@
-package br.com.gabriel.loja.formapagamento;
+package br.com.gabriel.loja.model.formapagamento;
 
-public enum PagamentoFactory {
+public enum TipoPagamentoFactory {
     CARTAO{
         @Override
         public Pagamento getTipoPagamento(double valorDivida) {
             return new PagamentoCartaoCredito(valorDivida, this);
-        }
-
-        @Override
-        public void executeViewPagamento() {
         }
     },
     BOLETO{
@@ -16,14 +12,8 @@ public enum PagamentoFactory {
         public Pagamento getTipoPagamento(double valorDivida) {
             return new PagamentoBoleto(valorDivida, this);
         }
-
-        @Override
-        public void executeViewPagamento() {
-        }
     };
 
     public abstract Pagamento getTipoPagamento(final double valorDivida);
-
-    public abstract void executeViewPagamento();
 }
 

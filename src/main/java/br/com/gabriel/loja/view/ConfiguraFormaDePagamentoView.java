@@ -1,6 +1,6 @@
 package br.com.gabriel.loja.view;
 
-import br.com.gabriel.loja.formapagamento.*;
+import br.com.gabriel.loja.model.formapagamento.*;
 
 import java.util.Scanner;
 
@@ -9,8 +9,8 @@ public class ConfiguraFormaDePagamentoView {
 
     public Pagamento configurar(int formaDePagamento, double valorCompra){
 
-        PagamentoFactory pagamentoFactory = PagamentoFactory.values()[formaDePagamento -1];
-        Pagamento pagamento = pagamentoFactory.getTipoPagamento(valorCompra);
+        TipoPagamentoFactory tipoPagamentoFactory = TipoPagamentoFactory.values()[formaDePagamento -1];
+        Pagamento pagamento = tipoPagamentoFactory.getTipoPagamento(valorCompra);
 
         if (pagamento instanceof PagamentoCartaoCredito){
             System.out.println("Digite o numero do cartao de crédito");

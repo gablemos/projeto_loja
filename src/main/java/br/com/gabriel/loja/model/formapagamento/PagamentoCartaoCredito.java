@@ -1,4 +1,4 @@
-package br.com.gabriel.loja.formapagamento;
+package br.com.gabriel.loja.model.formapagamento;
 
 public class PagamentoCartaoCredito extends Pagamento{
 
@@ -6,8 +6,8 @@ public class PagamentoCartaoCredito extends Pagamento{
     private int quantidadeParcelas;
     private double valorParcela;
 
-    public PagamentoCartaoCredito(final double valorDivida, final PagamentoFactory pagamentoFactory){
-        super(valorDivida, pagamentoFactory);
+    public PagamentoCartaoCredito(final double valorDivida, final TipoPagamentoFactory tipoPagamentoFactory){
+        super(valorDivida, tipoPagamentoFactory);
     }
 
     @Override

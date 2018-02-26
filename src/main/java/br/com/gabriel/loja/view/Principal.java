@@ -11,9 +11,10 @@ public class Principal {
     public static void main(String[] args) {
         Cliente cliente;
         Pedido pedido;
+        CarrinhoDeCompra carrinhoDeCompra = new CarrinhoDeCompra();
+
         Clientes clientes = new Clientes();
         Produtos produtos = new Produtos();
-        CarrinhoDeCompra carrinhoDeCompra = new CarrinhoDeCompra();
 
         String opcao;
         String emailCliente;
@@ -54,14 +55,14 @@ public class Principal {
         cliente.addPedidos(pedido);
         System.out.println("Compra finalizada");
         pedido.finalizarPagamento();
-        pedido.gerarNotaFiscal(cliente);
 
-
+        NotaFiscal notaFiscal = new NotaFiscal(cliente, pedido);
     }
 
     private static void mostrarProdutosLoja(List<Produto> produtos){
+        System.out.println("Produto\tValor");
         for (Produto prod : produtos) {
-            System.out.println(prod.getDescricao());
+            System.out.println(prod.getDescricao() + "\t" + prod.getValor());
         }
     }
 }
