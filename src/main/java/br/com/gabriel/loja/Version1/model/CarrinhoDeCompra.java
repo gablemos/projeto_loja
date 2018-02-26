@@ -1,13 +1,15 @@
-package br.com.gabriel.loja.model;
+package br.com.gabriel.loja.Version1.model;
 
 import java.util.*;
 
 public class CarrinhoDeCompra {
 
     private final Map<Produto, Integer> produtosCompra;
+    private final List<Mercadoria> mercadorias;
 
     public CarrinhoDeCompra(){
         this.produtosCompra = new LinkedHashMap<>();
+        this.mercadorias = new ArrayList<>();
     }
 
     public Map<Produto, Integer> getProdutosCompra() {

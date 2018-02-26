@@ -1,4 +1,4 @@
-package br.com.gabriel.loja.model;
+package br.com.gabriel.loja.Version1.model;
 
 
 import junit.framework.TestCase;

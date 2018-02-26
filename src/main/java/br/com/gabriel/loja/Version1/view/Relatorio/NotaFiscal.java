@@ -1,7 +1,7 @@
-package br.com.gabriel.loja.view;
+package br.com.gabriel.loja.Version1.view.Relatorio;
 
-import br.com.gabriel.loja.model.formapagamento.*;
-import br.com.gabriel.loja.model.*;
+import br.com.gabriel.loja.Version1.model.formapagamento.*;
+import br.com.gabriel.loja.Version1.model.*;
 
 public class NotaFiscal {
 

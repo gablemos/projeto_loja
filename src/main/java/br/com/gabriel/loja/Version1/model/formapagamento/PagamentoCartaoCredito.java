@@ -1,4 +1,4 @@
-package br.com.gabriel.loja.model.formapagamento;
+package br.com.gabriel.loja.Version1.model.formapagamento;
 
 public class PagamentoCartaoCredito extends Pagamento{
 

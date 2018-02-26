@@ -1,6 +1,6 @@
-package br.com.gabriel.loja.dados;
+package br.com.gabriel.loja.Version1.dados;
 
-import br.com.gabriel.loja.model.Cliente;
+import br.com.gabriel.loja.Version1.model.Cliente;
 
 import java.util.*;
 

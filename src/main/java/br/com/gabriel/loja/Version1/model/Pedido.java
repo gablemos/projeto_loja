@@ -1,6 +1,6 @@
-package br.com.gabriel.loja.model;
+package br.com.gabriel.loja.Version1.model;
 
-import br.com.gabriel.loja.model.formapagamento.Pagamento;
+import br.com.gabriel.loja.Version1.model.formapagamento.Pagamento;
 
 import java.time.LocalDateTime;
 import java.util.Collections;

@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e344fb-2e50-4bc9-81c7-3f899022dfce" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/Pagamento.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Mercadoria.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Clients.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Products.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Artefact.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Order.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Product.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/ShoppingCart.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentBillet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentCreditCard.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentOption.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/BilletView.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/ComponentsView.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/CreditCardView.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/PaymentOptionView.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/report/Receipt.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Relatorio/NotaFiscal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/NotaFiscal.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/Pagamento.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/PagamentoBoleto.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoBoleto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/PagamentoCartaoCredito.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoCartaoCredito.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/PagamentoFactory.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamentoFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Pedido.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Pedido.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/ConfiguraFormaDePagamentoView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/ConfiguraFormaDePagamentoView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Principal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Principal.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Clientes.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/dados/Clientes.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Produtos.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/dados/Produtos.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CarrinhoDeCompra.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/CarrinhoDeCompra.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Cliente.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Cliente.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Pedido.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Pedido.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Produto.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Produto.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/Pagamento.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/Pagamento.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoBoleto.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/PagamentoBoleto.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoCartaoCredito.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/PagamentoCartaoCredito.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamentoFactory.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/TipoPagamentoFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/ConfiguraFormaDePagamentoView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/view/ConfiguraFormaDePagamentoView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/NotaFiscal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/view/Relatorio/NotaFiscal.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Principal.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/view/Principal.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/gabriel/loja/model/ProdutoTest.java" afterPath="$PROJECT_DIR$/src/test/java/br/com/gabriel/loja/Version1/model/ProdutoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,114 +44,99 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pagamento.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/Pagamento.java">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="238">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Principal.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/view/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarrinhoDeCompra.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CarrinhoDeCompra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="70" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="70" />
-              <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TipoPagamentoFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamentoFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfiguraFormaDePagamentoView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/ConfiguraFormaDePagamentoView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="49" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Cliente.java">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/report/Receipt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BilletView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/BilletView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagamentoCartaoCredito.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoCartaoCredito.java">
+      <file leaf-file-name="ComponentsView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/ComponentsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            <state relative-caret-position="467">
+              <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
               <folding>
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotaFiscal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/NotaFiscal.java">
+      <file leaf-file-name="Clients.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Clients.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,15 +144,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagamentoBoleto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoBoleto.java">
+      <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Products.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditCardView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/CreditCardView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentOptionView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/PaymentOptionView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-              </folding>
+              <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,43 +201,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Produto.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/FormaDePagament.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CartaoCreditoPagamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/BoletoPagamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/FormaDePagamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Pagamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/TipoFrete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/Frete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/Exemplo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/SemStrategy/TipoFrete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/Frete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/Normal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/Sedex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/TipoFrete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/Exemplo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/Boleto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/CartaoCredito.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Boleto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CartaoCredito.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/PagamentoBoleto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/PagamentoCartaoCredito.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/EnumSingleton/AviaoSingleTonEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/EnumSingleton/AviaoSingletonEnum.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/EnumSingleton/AviaoSingletonEnumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/AviaoSingletonEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/ProdutosEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/Pagamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/FormaPagamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoBoleto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoCartaoCredito.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Produtos.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Clientes.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/gabriel/loja/model/ProdutoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CarrinhoDeCompra.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/Pagamento.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/PagamentoCartaoCredito.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/PagamentoBoleto.java" />
@@ -217,13 +212,46 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/TipoPagamento.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/FormaDePagamentoView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/ConfiguraFormaDePagamentoView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Relatorio/NotaFiscal.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/TipoPagamentoFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Pedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Principal.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/NotaFiscal.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/OpcaoPagamento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Mercadoria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CarrinhoDeCompra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Relatorio/NotaFiscal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Relatorio/NotaFiscal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PaymentType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PaymentOption.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PaymentCreditCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PaymentBillet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Artefact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/Relatorio/NotaFiscal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/report/NotaFiscal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/report/Receipt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Clientes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/PaymentContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Artefact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentBillet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentCreditCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/PaymentOptionView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/BilletView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/CreditCardView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Clients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Products.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/ComponentsView.java" />
       </list>
     </option>
   </component>
@@ -304,6 +332,75 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="loja" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="projeto_loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_loja" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loja" type="462c0819:PsiDirectoryNode" />
+              <item name="Version1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_loja" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loja" type="462c0819:PsiDirectoryNode" />
+              <item name="Version1" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_loja" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loja" type="462c0819:PsiDirectoryNode" />
+              <item name="Version2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_loja" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loja" type="462c0819:PsiDirectoryNode" />
+              <item name="Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_loja" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loja" type="462c0819:PsiDirectoryNode" />
+              <item name="Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_loja" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loja" type="462c0819:PsiDirectoryNode" />
+              <item name="Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="payment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto_loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto_loja" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loja" type="462c0819:PsiDirectoryNode" />
+              <item name="Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -336,12 +433,15 @@
       <recent name="br.com.gabriel.loja" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.gabriel.loja.Version2.view.Relatorio" />
       <recent name="br.com.gabriel.loja.dados" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Focusnetworks\Documents\GitHub\projeto_loja\src\main\java\br\com\gabriel\loja\Version2\data" />
       <recent name="C:\Users\Focusnetworks\Documents\GitHub\projeto_loja\src\main\java\br\com\gabriel\loja\Teste\ComStrategy" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.gabriel.loja.model" />
       <recent name="br.com.gabriel.loja.Teste" />
     </key>
   </component>
@@ -387,7 +487,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="br.com.gabriel.loja.view.*" />
+          <option name="PATTERN" value="br.com.gabriel.loja.Version1.view.Relatorio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,11 +506,11 @@
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="br.com.gabriel.loja.view.*" />
+          <option name="PATTERN" value="br.com.gabriel.loja.Version1.view.Relatorio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="br.com.gabriel.loja.view.Principal" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gabriel.loja.Version1.view.Principal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -439,15 +539,15 @@
     <configuration name="ProdutoTest.testeAddPrimeiroProdutoCarrinhoDeCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="br.com.gabriel.loja.model.*" />
+          <option name="PATTERN" value="br.com.gabriel.loja.Version1.model.Pedido" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="loja" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.com.gabriel.loja.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gabriel.loja.model.ProdutoTest" />
+      <option name="PACKAGE_NAME" value="br.com.gabriel.loja.Version1.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gabriel.loja.Version1.model.ProdutoTest" />
       <option name="METHOD_NAME" value="testeAddPrimeiroProdutoCarrinhoDeCompra" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -464,15 +564,15 @@
     <configuration name="ProdutoTest.testeAddProdutoRepetidoCarrinhoDeCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="br.com.gabriel.loja.model.*" />
+          <option name="PATTERN" value="br.com.gabriel.loja.Version1.model.Pedido" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="loja" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.com.gabriel.loja.model" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gabriel.loja.model.ProdutoTest" />
+      <option name="PACKAGE_NAME" value="br.com.gabriel.loja.Version1.model" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gabriel.loja.Version1.model.ProdutoTest" />
       <option name="METHOD_NAME" value="testeAddProdutoRepetidoCarrinhoDeCompra" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -581,7 +681,7 @@
       <workItem from="1519226244392" duration="40015000" />
       <workItem from="1519385694882" duration="8314000" />
       <workItem from="1519400113058" duration="15550000" />
-      <workItem from="1519657376833" duration="7141000" />
+      <workItem from="1519657376833" duration="18277000" />
     </task>
     <task id="LOCAL-00001" summary="fase 2">
       <created>1519244807649</created>
@@ -618,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519418899113</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="versão 2.0">
+      <created>1519665538847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519665538847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -654,7 +761,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72786000" />
+    <option name="totallyTimeSpent" value="83922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,12 +775,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -681,13 +788,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2806354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2806354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -709,7 +816,8 @@
     <MESSAGE value="pqp" />
     <MESSAGE value="versão 1.0" />
     <MESSAGE value="versão 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="versão 1.1" />
+    <MESSAGE value="versão 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="versão 2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,218 +826,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoBoleto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamentoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoCartaoCredito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CarrinhoDeCompra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Pedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#861#862#0" expanded="false" />
-            <element signature="e#893#894#0" expanded="false" />
-            <element signature="e#937#938#0" expanded="false" />
-            <element signature="e#970#971#0" expanded="false" />
-            <element signature="method#getValorTotalCompra#0;class#Pedido#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/NotaFiscal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/Pagamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoBoleto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoCartaoCredito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Produtos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Clientes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CarrinhoDeCompra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamentoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/SemStrategy/Exemplo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/SemStrategy/Frete.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/SemStrategy/TipoFrete.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -955,7 +851,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/FormaPagamento.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/gabriel/loja/model/ProdutoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/gabriel/loja/Version1/model/ProdutoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -970,145 +866,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/Frete.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/TipoFrete.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Teste/ComStrategy/Exemplo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/formapagamento/TesteEnumFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Pedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#861#862#0" expanded="false" />
-            <element signature="e#893#894#0" expanded="false" />
-            <element signature="e#937#938#0" expanded="false" />
-            <element signature="e#970#971#0" expanded="false" />
-            <element signature="method#getValorTotalCompra#0;class#Pedido#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Clientes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/dados/Produtos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/Pagamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoBoleto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/PagamentoCartaoCredito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/ConfiguraFormaDePagamentoView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamentoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/CarrinhoDeCompra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="70" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="70" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/view/NotaFiscal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,19 +883,336 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/TipoPagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/view/Relatorio/NotaFiscal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/dados/Clientes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/dados/Produtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/model/formapagamento/OpcaoPagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/Pagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#505#506#0" expanded="false" />
+            <element signature="e#548#549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/CarrinhoDeCompra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#460#461#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#483#484#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Mercadoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/Pedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#771#772#0" expanded="false" />
+            <element signature="e#840#841#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#988#989#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#707#708#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/TipoPagamentoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/PagamentoCartaoCredito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/model/formapagamento/PagamentoBoleto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/view/ConfiguraFormaDePagamentoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentBillet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentCreditCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/payment/PaymentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Artefact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/report/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/CreditCardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Clients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/data/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/BilletView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version1/view/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="49" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/PaymentOptionView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gabriel/loja/Version2/view/ComponentsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
           </folding>
         </state>
       </provider>

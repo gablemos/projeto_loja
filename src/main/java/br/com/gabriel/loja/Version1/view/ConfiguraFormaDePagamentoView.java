@@ -1,6 +1,6 @@
-package br.com.gabriel.loja.view;
+package br.com.gabriel.loja.Version1.view;
 
-import br.com.gabriel.loja.model.formapagamento.*;
+import br.com.gabriel.loja.Version1.model.formapagamento.*;
 
 import java.util.Scanner;
 
