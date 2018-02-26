@@ -23,18 +23,18 @@ public class ComponentsView {
 
     }
 
-    private void showProducs(List<Product> products){
+    public void showProducs(List<Product> products){
         System.out.println("Produto\tValor");
         for (Product prod : products) {
             System.out.println(prod.getDescription() + "\t" + prod.getValue());
         }
     }
 
-    private void wellcome(){
+    public void wellcome(){
         System.out.println("Wellcome to FocusMarket: ");
     }
 
-    private void buy(){
+    public void buy(){
         System.out.println("Start shopping? Y/N");
         String op = inputScreen.next();
 
