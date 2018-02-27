@@ -1,14 +1,14 @@
-package br.com.gabriel.loja.Version2.view;
+package br.com.gabriel.loja.Version2.view.paymentView;
 
 import br.com.gabriel.loja.Version2.model.payment.*;
 
 import java.util.Scanner;
 
-public class CreditCardView extends PaymentOptionView{
+public class CreditCardView{
 
-    @Override
+    Scanner input = new Scanner(System.in);
+
     public PaymentOption getPayment(double shoppingValue){
-        Scanner input = new Scanner(System.in);
         System.out.println("Numero cartão de crédito:");
         String creditCardNumber = input.next();
         System.out.println("Numero de parcelas:");

@@ -13,30 +13,23 @@ public class Artefact {
         return product.getValue() * quantity;
     }
 
-    public Product getProduct() {
-        return product;
-    }
-
     public int getQuantity() {
         return quantity;
     }
 
+    public Product getProduct() {
+        return product;
+    }
+
+    public String getProductDescription(){
+        return product.getDescription();
+    }
+
+    public double getProductValue(){
+        return product.getValue();
+    }
+
     public void increment(final int quantity){
         this.quantity += quantity;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Artefact)) return false;
-
-        Artefact artefact = (Artefact) o;
-
-        return getProduct().equals(artefact.getProduct());
-    }
-
-    @Override
-    public int hashCode() {
-        return getProduct().hashCode();
     }
 }

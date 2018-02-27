@@ -30,5 +30,11 @@ public class Order {
         return shoppingCart.getArtefacts();
     }
 
+    public PaymentOption getPayment() {
+        return payment;
+    }
 
+    public LocalDateTime getShoppingDate() {
+        return shoppingDate;
+    }
 }

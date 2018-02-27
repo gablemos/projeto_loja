@@ -1,5 +1,6 @@
-package br.com.gabriel.loja.Version1.view;
+package br.com.gabriel.loja.Version1;
 
+import br.com.gabriel.loja.Version1.view.ConfiguraFormaDePagamentoView;
 import br.com.gabriel.loja.Version1.view.Relatorio.NotaFiscal;
 import br.com.gabriel.loja.Version1.dados.*;
 import br.com.gabriel.loja.Version1.model.*;

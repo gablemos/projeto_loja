@@ -3,6 +3,7 @@ package br.com.gabriel.loja.Version2.model;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 public class ShoppingCart {
     private final List<Artefact> artefacts;
@@ -12,13 +13,14 @@ public class ShoppingCart {
     }
 
     public void addProduct(final Product product, final int quantity){
-        for (Artefact a : artefacts){
-            if (a.equals(product)){
-                a.increment(quantity);
-                break;
-            }
+        final Optional<Artefact> artifact = artefacts.stream()
+                .filter(a -> a.getProduct().equals(product))
+                .findFirst();
+        if (artifact.isPresent()) {
+            artifact.get().increment(quantity);
+        } else {
+            artefacts.add(new Artefact(product, quantity));
         }
-        artefacts.add(new Artefact(product, quantity));
     }
 
     public double getShoppingValue(){
